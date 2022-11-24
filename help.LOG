@@ -1,0 +1,37 @@
+.LOG
+11:53 AM 11/23/2022
+curl -s https://api.github.com/users/JohnWickKeanue/repos?per_page=200 | grep \"clone_url\" | awk '{print $2}' | sed -e 's/"//g' -e 's/,//g' | xargs -n1 git clone
+
+12:12 PM 11/23/2022
+    "git_url": "git://github.com/JohnWickKeanue/animeremux-scraper.git",
+    "ssh_url": "git@github.com:JohnWickKeanue/animeremux-scraper.git",
+    "clone_url": "https://github.com/JohnWickKeanue/animeremux-scraper.git",
+    "svn_url": "https://github.com/JohnWickKeanue/animeremux-scraper",
+
+
+gh repo fork https://github.com/learn-devops-fast/spock-lizard-docker.git --clone
+
+
+
+curl -s https://api.github.com/users/weebzone/repos?per_page=200 | grep \"clone_url\" | awk '{print $2}' | sed -e 's/"//g' -e 's/,//g' | xargs -n1 gh repo fork --clone
+
+12:35 PM 11/23/2022
+
+curl -s https://api.github.com/users/missemily22/repos?per_page=200 | grep \"clone_url\" | awk '{print $2}' | sed -e 's/"//g' -e 's/,//g' | xargs -n1 gh repo --clone
+
+Greymattersbot
+
+
+curl -s https://api.github.com/users/Greymattersbot/repos?per_page=200 | grep \"clone_url\" | awk '{print $2}' | sed -e 's/"//g' -e 's/,//g' | xargs -n1 gh repo fork --clone
+
+junedkh
+
+curl -s https://api.github.com/users/junedkh/repos?per_page=200 | grep \"clone_url\" | awk '{print $2}' | sed -e 's/"//g' -e 's/,//g' | xargs -n1 gh repo fork --clone
+
+
+
+curl -s https://api.github.com/users/missemily22/repos?per_page=200 | grep \"clone_url\" | awk '{print $2}' | sed -e 's/"//g' -e 's/,//g' | xargs -n1 git clone
+1:18 PM 11/23/2022
+
+curl -s https://api.github.com/users/weebzone/repos?per_page=200 | grep \"clone_url\" | awk '{print $2}' | sed -e 's/"//g' -e 's/,//g' | xargs -n1 gh repo fork --clone
+11:21 AM 11/24/2022
